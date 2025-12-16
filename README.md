@@ -2,25 +2,28 @@
 
 **Goal:** Building a hardened Linux environment, security tools, and automation scripts from scratch.
 **Tech Stack:** Linux (Ubuntu), Bash, UFW, OpenSSH, Python.
-**Status:** 🟢 Active (Day 5/100)
+**Status:** 🟢 Active (Day 6/100)
 
 ## 📂 Progress Log
 
-| Day 06 | 🛡️ SSH Hardening | Disabling Passwords, Enforcing Key Auth | ✅ Completed |
-
-```
+| Day | Topic | Description | Status |
+| :--- | :--- | :--- | :--- |
+| **Day 06** | 🛡️ SSH Hardening | Disabling Passwords, Enforcing Key Auth | ✅ Completed |
+| **Day 05** | 🔍 File Integrity Monitor | SHA-256 Hashing & Baseline Comparison | ✅ Completed |
+| **Day 04** | 🧱 Firewall Automation | UFW Configuration Script | ✅ Completed |
+| **Day 03** | 🚨 Net Sentry | Port Scanning & Intrusion Detection | ✅ Completed |
+| **Day 02** | ⚙️ Process Management | Linux Lifecycle & Signal Handling | ✅ Completed |
+| **Day 01** | 👤 Identity Audit | User & Root Account Auditing | ✅ Completed |
 
 ---
 
-###🚀 How to Push ItRun these commands in your Windows PowerShell to make it official:
-
-```powershell
-git add .
-git commit -m "Day 06: Successfully hardened SSH and disabled passwords"
-git push origin main
-
-```
-
+### Day 6: SSH Hardening & Key Authentication
+- **Problem:** Default SSH settings allow attackers to brute-force passwords and log in as `root`.
+- **Solution:** Configured `/etc/ssh/sshd_config` to strictly enforce **Ed25519 SSH Keys**.
+- **Hardening Steps:**
+  - `PermitRootLogin no` (Stop God-mode login)
+  - `PasswordAuthentication no` (Disable text passwords)
+  - `PubkeyAuthentication yes` (Require cryptographic keys)
 
 ### Day 5: File Integrity Monitor (FIM)
 - **Problem:** Attackers often modify system binaries or configs (like `/etc/shadow`) to maintain persistence.
