@@ -43,5 +43,4 @@ type $env:USERPROFILE\.ssh\id_ed25519.pub | ssh nevin@192.168.234.128 "mkdir -p 
 
 *Status: ✅ Complete*
 
-```
 
