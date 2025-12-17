@@ -2,12 +2,13 @@
 
 **Goal:** Building a hardened Linux environment, security tools, and automation scripts from scratch.
 **Tech Stack:** Linux (Ubuntu), Bash, UFW, OpenSSH, Python.
-**Status:** 🟢 Active (Day 6/100)
+**Status:** 🟢 Active (Day 7/100)
 
 ## 📂 Progress Log
 
 | Day | Topic | Description | Status |
 | :--- | :--- | :--- | :--- |
+| **Day 07** | 🔫 Fail2Ban | Automated Intrusion Prevention System | ✅ Completed |
 | **Day 06** | 🛡️ SSH Hardening | Disabling Passwords, Enforcing Key Auth | ✅ Completed |
 | **Day 05** | 🔍 File Integrity Monitor | SHA-256 Hashing & Baseline Comparison | ✅ Completed |
 | **Day 04** | 🧱 Firewall Automation | UFW Configuration Script | ✅ Completed |
@@ -16,6 +17,14 @@
 | **Day 01** | 👤 Identity Audit | User & Root Account Auditing | ✅ Completed |
 
 ---
+
+### Day 7: Fail2Ban Intrusion Prevention
+- **Problem:** Even with SSH keys, bots can flood the server with thousands of login attempts, wasting resources and cluttering logs.
+- **Solution:** Installed **Fail2Ban** to monitor `/var/log/auth.log` and automatically update Firewall rules to ban malicious IPs.
+- **Configuration:**
+  - **Bantime:** 1 hour (Punishment duration)
+  - **Maxretry:** 3 attempts (Strike limit)
+  - **Action:** Immediate IP block via `iptables`/UFW.
 
 ### Day 6: SSH Hardening & Key Authentication
 - **Problem:** Default SSH settings allow attackers to brute-force passwords and log in as `root`.
