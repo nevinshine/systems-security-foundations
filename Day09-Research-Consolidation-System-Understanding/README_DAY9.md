@@ -1,4 +1,4 @@
-# Day 09: Research Consolidation & System Understanding"
+# Day 09: Research Consolidation & System Understanding
 Consolidating kernel-level security research by documenting architecture, assumptions, and learning gaps.
 ---
 
