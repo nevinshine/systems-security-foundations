@@ -1,5 +1,5 @@
 # 100 Days of DevSecOps
-**description:** "Building a hardened Linux environment, security tools, and automation scripts from scratch."
+Building a hardened Linux environment, security tools, and automation scripts from scratch.
 ---
 
 > **Goal:** Building a hardened Linux environment, security tools, and automation scripts from scratch.  
