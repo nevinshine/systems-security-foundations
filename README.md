@@ -1,8 +1,5 @@
----
-title: "100 Days of DevSecOps"
-description: "Building a hardened Linux environment, security tools, and automation scripts from scratch."
-sidebar:
-  order: 1
+# 100 Days of DevSecOps
+**description:** "Building a hardened Linux environment, security tools, and automation scripts from scratch."
 ---
 
 > **Goal:** Building a hardened Linux environment, security tools, and automation scripts from scratch.  
