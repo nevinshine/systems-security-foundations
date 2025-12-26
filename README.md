@@ -11,6 +11,7 @@ Building a hardened Linux environment, security tools, and automation scripts fr
 | Day | Topic | Description | Status |
 | :--- | :--- | :--- | :--- |
 | **Day 12** | Runtime Anomaly Classification | Threshold-calibrated syscall behavior detection | <span style="color:#39FF14; font-weight:bold;">Completed</span> |
+| **Day 11** | Syscall Anomaly Scoring Validation | Stabilized DWN scoring and score distribution analysis | <span style="color:#39FF14; font-weight:bold;">Completed</span> |
 | **Day 10** | Temporal Feature Engineering | Improving Syscall Anomaly Detection via Temporal Bucketing | <span style="color:#39FF14; font-weight:bold;">Completed</span> |
 | **Day 09** | Research Consolidation | Sentinel Sandbox Architecture & Understanding | <span style="color:#39FF14; font-weight:bold;">Completed</span> |
 | **Day 08** | AI Anomaly Detection | CPU-Optimized Weightless Neural Network | <span style="color:#39FF14; font-weight:bold;">Completed</span> |
