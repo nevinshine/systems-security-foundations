@@ -1,31 +1,45 @@
-# 100 Days of Systems Security
-Researching Linux Kernel Internals, Runtime Verification, and Active Defense pipelines.
+# Systems Security Research Log (100 Days)
+
+![Status](https://img.shields.io/badge/status-active_research-green)
+![Focus](https://img.shields.io/badge/focus-linux_kernel_&_ml-blue)
+![Role](https://img.shields.io/badge/role-systems_researcher-purple)
+
+**The daily experimental log for the Sentinel Runtime Verification System.**
+
+This repository tracks the chronological progress of engineering a custom Linux Kernel EDR from scratch. It serves as the "raw data" and proof-of-work that feeds into the formal documentation.
+
+🔗 **Formal Research Dossier:** [nevinshine.github.io/runtime-security-dossier](https://nevinshine.github.io/runtime-security-dossier/)
+
 ---
 
-> **Goal:** Engineering a custom Runtime Verification System (Sentinel) and documenting the path to MSc/PhD.
-> **Focus:** Linux Kernel (`ptrace`), Anomaly Detection (ML), and Low-Level C.
-> **Current Status:** <span style="color:#39FF14; font-weight:bold;">🟢 Active (Day 16/100)</span>
+## 📂 Research Timeline
 
-## Research Log
-
-| Day | Topic | Description | Status |
+| Day | Topic | Domain | Status |
 | :--- | :--- | :--- | :--- |
-| **Day 16** | **Dossier V1.0 Release** | Launched "Runtime Security Dossier" (Static Site) to host architectural decisions and theory. | <span style="color:#39FF14; font-weight:bold;">Completed</span> |
-| **Day 15** | Research Methodology | Transition from "building tools" to "documenting research" (ADRs). | <span style="color:#39FF14; font-weight:bold;">Completed</span> |
-| **Day 14** | Research Env Setup | Native Ubuntu + Sentinel Pipeline Validation. | <span style="color:#39FF14; font-weight:bold;">Completed</span> |
-| **Day 13** | Code Review | Review of Sentinel v0.7 Interceptor Logic. | <span style="color:#39FF14; font-weight:bold;">Completed</span> |
-| **Day 12** | Anomaly Classification | Threshold-calibrated syscall behavior detection. | <span style="color:#39FF14; font-weight:bold;">Completed</span> |
-| **Day 11** | Scoring Validation | Stabilized DWN scoring and distribution analysis. | <span style="color:#39FF14; font-weight:bold;">Completed</span> |
-| **Day 10** | Temporal Bucketing | Improving Detection via Time-Window Analysis. | <span style="color:#39FF14; font-weight:bold;">Completed</span> |
-| **Day 09** | Architecture Freeze | Sentinel Sandbox "Brain" & "Interceptor" separation. | <span style="color:#39FF14; font-weight:bold;">Completed</span> |
-| **Day 08** | AI Integration | CPU-Optimized Weightless Neural Network (DWN). | <span style="color:#39FF14; font-weight:bold;">Completed</span> |
-| **Day 07** | IPS Automation | Fail2Ban configuration for SSH brute-force. | <span style="color:#39FF14; font-weight:bold;">Completed</span> |
-| **Day 06** | Access Hardening | Disabling Passwords, Enforcing Key Auth. | <span style="color:#39FF14; font-weight:bold;">Completed</span> |
-| **Day 05** | Integrity Monitoring | SHA-256 Hashing & Baseline Comparison script. | <span style="color:#39FF14; font-weight:bold;">Completed</span> |
-| **Day 04** | Network Defense | UFW Firewall Automation Script. | <span style="color:#39FF14; font-weight:bold;">Completed</span> |
-| **Day 03** | Intrusion Detection | Net Sentry (Port Scanning Detection). | <span style="color:#39FF14; font-weight:bold;">Completed</span> |
-| **Day 02** | Process Signals | Linux Lifecycle & Signal Handling (SIGSTOP/CONT). | <span style="color:#39FF14; font-weight:bold;">Completed</span> |
-| **Day 01** | Identity Audit | User & Root Account Auditing. | <span style="color:#39FF14; font-weight:bold;">Completed</span> |
+| **Day 16** | **Dossier V1.0 Launch** | Documentation | ✅ **Released** (Linked above) |
+| **Day 15** | Research Methodology | ADRs | ✅ Completed |
+| **Day 14** | Environment Stabilization | Infrastructure | ✅ Completed |
+| **Day 13** | Code Review (Sentinel v0.7) | C / Ptrace | ✅ Completed |
+| **Day 12** | Runtime Anomaly Classification | Machine Learning | ✅ Completed |
+| **Day 11** | Syscall Scoring Validation | Data Analysis | ✅ Completed |
+| **Day 10** | Temporal Feature Engineering | Data Science | ✅ Completed |
+| **Day 09** | Architecture Freeze | System Design | ✅ Completed |
+| **Day 08** | Weightless Neural Network (DWN) | AI / ML | ✅ Completed |
+| **Day 07** | Automated IPS (Fail2Ban) | NetSec | ✅ Completed |
+| **Day 06** | SSH Hardening & Key Auth | Access Control | ✅ Completed |
+| **Day 05** | File Integrity Monitoring (FIM) | Host Security | ✅ Completed |
+| **Day 04** | Firewall Automation (UFW) | NetSec | ✅ Completed |
+| **Day 03** | Intrusion Detection (Port Scan) | NetSec | ✅ Completed |
+| **Day 02** | Process Signals (SIGSTOP/CONT) | Kernel | ✅ Completed |
+| **Day 01** | Identity & Account Audit | IAM | ✅ Completed |
 
 ---
-<small>Research Log by Nevin Shine.</small>
+
+## 🔬 Tech Stack
+* **Core:** C, Python, Bash
+* **Kernel:** `ptrace`, `sys/user.h`, `sys/ptrace.h`
+* **ML:** Scikit-Learn, Custom Weightless Neural Networks (WiSARD)
+* **Target:** Linux (Ubuntu/Debian)
+
+---
+*“Verba volant, scripta manent.”*
