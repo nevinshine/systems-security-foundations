@@ -12,10 +12,12 @@ This repository tracks the chronological progress of engineering a custom Linux 
 
 ---
 
-## 📂 Research Timeline
+## Research Timeline
 
 | Day | Topic | Domain | Status |
 | :--- | :--- | :--- | :--- |
+| **Day 18** | **Deep Argument Inspection (v0.8)** | Kernel / Ptrace | ✅ **Completed** |
+| **Day 17** | System Standby (Recovery) | Health | ⏸️ **Paused** |
 | **Day 16** | **Dossier V1.0 Launch** | Documentation | ✅ **Released** (Linked above) |
 | **Day 15** | Research Methodology | ADRs | ✅ Completed |
 | **Day 14** | Environment Stabilization | Infrastructure | ✅ Completed |
@@ -35,7 +37,7 @@ This repository tracks the chronological progress of engineering a custom Linux 
 
 ---
 
-## 🔬 Tech Stack
+## Tech Stack
 * **Core:** C, Python, Bash
 * **Kernel:** `ptrace`, `sys/user.h`, `sys/ptrace.h`
 * **ML:** Scikit-Learn, Custom Weightless Neural Networks (WiSARD)
