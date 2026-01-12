@@ -16,6 +16,7 @@ This repository tracks the chronological progress of engineering a custom Linux 
 
 | Day | Topic | Domain | Status |
 | :--- | :--- | :--- | :--- |
+| **Day 19** | **IPC Bridge (v0.9)** | Kernel / Python | ✅ **Completed** |
 | **Day 18** | **Deep Argument Inspection (v0.8)** | Kernel / Ptrace | ✅ **Completed** |
 | **Day 17** | System Standby (Recovery) | Health | ⏸️ **Paused** |
 | **Day 16** | **Dossier V1.0 Launch** | Documentation | ✅ **Released** (Linked above) |
