@@ -1,7 +1,7 @@
 # Systems Security Research Log (100 Days)
 
 ![Status](https://img.shields.io/badge/status-active_research-green)
-![Focus](https://img.shields.io/badge/focus-linux_kernel_&_ml-blue)
+![Focus](https://img.shields.io/badge/focus-behavioral_edr_kernel-363636)
 ![Role](https://img.shields.io/badge/role-systems_researcher-purple)
 
 **The daily experimental log for the Sentinel Runtime Verification System.**
@@ -16,6 +16,7 @@ This repository tracks the chronological progress of engineering a custom Linux 
 
 | Day | Topic | Domain | Status |
 | :--- | :--- | :--- | :--- |
+| **Day 23** | **Recursive Process Tree Tracking (M2.0)** | Kernel / EDR | ✅ **Completed** |
 | **Day 22** | **Sentinel Platform (Orchestrator + Eye)** | Systems / Ptrace | ✅ **Completed** |
 | **Day 21** | **Active Blocking (Kill Switch)** | Systems / IPC | ✅ **Completed** |
 | **Day 20** | **Live Neural Defense (v1.0)** | AI / Integration | ✅ **Completed** |
@@ -43,7 +44,7 @@ This repository tracks the chronological progress of engineering a custom Linux 
 
 ## Tech Stack
 * **Core:** C, Python, Bash
-* **Kernel:** `ptrace`, `sys/user.h`, `sys/ptrace.h`
+* **Kernel:** `ptrace`, `sys/user.h`, `sys/ptrace.h`, `PTRACE_O_TRACEFORK`
 * **ML:** Scikit-Learn, Custom Weightless Neural Networks (WiSARD)
 * **Target:** Linux (Ubuntu/Debian)
 
