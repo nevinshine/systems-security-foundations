@@ -16,6 +16,8 @@ This repository tracks the chronological progress of engineering a custom Linux 
 
 | Day | Topic | Domain | Status |
 | :--- | :--- | :--- | :--- |
+| **Day 22** | **Sentinel Platform (Orchestrator + Eye)** | Systems / Ptrace | ✅ **Completed** |
+| **Day 21** | **Active Blocking (Kill Switch)** | Systems / IPC | ✅ **Completed** |
 | **Day 20** | **Live Neural Defense (v1.0)** | AI / Integration | ✅ **Completed** |
 | **Day 19** | **IPC Bridge (v0.9)** | Kernel / Python | ✅ **Completed** |
 | **Day 18** | **Deep Argument Inspection (v0.8)** | Kernel / Ptrace | ✅ **Completed** |
