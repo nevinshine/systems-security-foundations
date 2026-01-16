@@ -16,6 +16,7 @@ This repository tracks the chronological progress of engineering a custom Linux 
 
 | Day | Topic | Domain | Status |
 | :--- | :--- | :--- | :--- |
+| **Day 24** | **Modular Research Architecture (Refactor)** | Engineering / C | ✅ **Completed** |
 | **Day 23** | **Recursive Process Tree Tracking (M2.0)** | Kernel / EDR | ✅ **Completed** |
 | **Day 22** | **Sentinel Platform (Orchestrator + Eye)** | Systems / Ptrace | ✅ **Completed** |
 | **Day 21** | **Active Blocking (Kill Switch)** | Systems / IPC | ✅ **Completed** |

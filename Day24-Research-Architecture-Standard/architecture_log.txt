@@ -1,0 +1,5 @@
+Refactored Sentinel Runtime into modular components:
+- src/engine (C Kernel Interceptor)
+- src/analysis (Python Neural Interface)
+- tests/evasion (Malware Vectors)
+- assets/ (Research Artifacts)
