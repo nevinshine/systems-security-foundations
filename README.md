@@ -16,6 +16,7 @@ This repository tracks the chronological progress of engineering a custom Linux 
 
 | Day | Topic | Domain | Status |
 | :--- | :--- | :--- | :--- |
+| **Day 25** | **Universal Active Defense (M2.1)** | **Kernel / EDR** | ✅ **Completed** |
 | **Day 24** | **Modular Research Architecture (Refactor)** | Engineering / C | ✅ **Completed** |
 | **Day 23** | **Recursive Process Tree Tracking (M2.0)** | Kernel / EDR | ✅ **Completed** |
 | **Day 22** | **Sentinel Platform (Orchestrator + Eye)** | Systems / Ptrace | ✅ **Completed** |
