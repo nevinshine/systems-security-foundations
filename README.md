@@ -16,6 +16,11 @@ This repository tracks the chronological progress of engineering a custom Linux 
 
 | Day | Topic | Domain | Status |
 | :--- | :--- | :--- | :--- |
+| **Day 30** | Research Milestone Release (M2 & M2.1) | Documentation | **✅ Completed** |
+| **Day 29** | Sentinel M2.1: Active Blocking (VFORK) | Kernel / EDR | **✅ Completed** |
+| **Day 28** | Hyperion M2: Stateful Firewall (eBPF Maps)| Network / XDP | **✅ Completed** |
+| **Day 27** | Hyperion M1: Stateless Filter (Drop IP) | Network / XDP | **✅ Completed** |
+| **Day 26** | Hyperion Project Init (XDP Environment) | Network / XDP | **✅ Completed** |
 | **Day 25** | **Universal Active Defense (M2.1)** | **Kernel / EDR** | ✅ **Completed** |
 | **Day 24** | **Modular Research Architecture (Refactor)** | Engineering / C | ✅ **Completed** |
 | **Day 23** | **Recursive Process Tree Tracking (M2.0)** | Kernel / EDR | ✅ **Completed** |
