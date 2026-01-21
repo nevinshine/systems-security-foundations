@@ -2,13 +2,13 @@
 
 ![Status](https://img.shields.io/badge/status-active_research-green)
 ![Focus](https://img.shields.io/badge/focus-behavioral_edr_kernel-363636)
-![Role](https://img.shields.io/badge/role-systems_researcher-purple)
+![Role](https://img.shields.io/badge/role-system_security_researcher-purple)
 
 **The daily experimental log for the Sentinel Runtime Verification System.**
 
 This repository tracks the chronological progress of engineering a custom Linux Kernel EDR from scratch. It serves as the "raw data" and proof-of-work that feeds into the formal documentation.
 
-🔗 **Formal Research Dossier:** [nevinshine.github.io/runtime-security-dossier](https://nevinshine.github.io/runtime-security-dossier/)
+🔗 **Formal Research Dossier:** [nevinshine.github.io/runtime-security-dossier](https://nevinshine.github.io/system-security-research-dossier/)
 
 ---
 
