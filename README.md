@@ -16,6 +16,7 @@ This repository tracks the chronological progress of engineering a custom Linux 
 
 | Day | Topic | Domain | Status |
 | :--- | :--- | :--- | :--- |
+| **Day 32-40** | **Sentinel M3.4: Research Hardening & Artifact Finalization** | **Engineering / Security** | **✅ Completed** |
 | **Day 31** | Sentinel M3.0: Semantic Mapping (Cognitive Engine) | Analysis / Python | **✅ Completed** |
 | **Day 30** | Research Milestone Release (M2 & M2.1) | Documentation | **✅ Completed** |
 | **Day 29** | Sentinel M2.1: Active Blocking (VFORK) | Kernel / EDR | **✅ Completed** |
